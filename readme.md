@@ -2,6 +2,8 @@
 
 Displays a "watermark" hint on HTML input forms when no value is present.
 
+Also overrides jQuery's .val() operator to filter out any hint text; this help with validation plugins, for example.
+
 ### Usage
 
 Use like this:
